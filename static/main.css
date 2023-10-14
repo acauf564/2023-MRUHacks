@@ -1,42 +1,81 @@
 .affirmation-container {
-    text-align: center;
+  text-align: center;
 }
 
 .affirmation {
-    font-size: 56px;
-    font-weight: bold;
-    animation: flashText 7s infinite alternate;
+  font-size: 56px;
+  font-weight: bold;
+  animation: flashText 7s infinite alternate;
 }
 
 @keyframes flashText {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .image-container {
-    height: 400px; 
-    overflow: hidden;
+  height: 400px;
+  overflow: hidden;
 }
 
 #drop-area {
-    width: 300px;
-    height: 200px;
-    border: 1px dotted rgb(116, 110, 110);
-    background-color: rgba(234, 228, 228, 0.743);
-    text-align: center;
-    padding: 30px;
-    margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border: 1px dotted rgb(116, 110, 110);
+  background-color: rgba(234, 228, 228, 0.743);
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 #file-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .text {
-    text-align: center;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+}
+
+span {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.assignment {
+  display: flex;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: paleturquoise;
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+table {
+  width: 750px;
+  margin: auto;
+  border: 5;
+  border-style: ridge;
+  border-radius: 20px;
+  border-color: black;
+  text-align: center;
+}
+
+th {
+  border-bottom: solid black 1px;
 }

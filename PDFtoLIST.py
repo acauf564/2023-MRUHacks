@@ -34,12 +34,13 @@ class PDFtoList:
         #     temperature=0,
         # )
 
+
         # usableResponse = response.choices[0].message["content"]
         
         # print(usableResponse)
 
         #UNCOMMENT LATER
 
-        usableResponse = [['Java Refresher and Comparators', '', '7.5%'], ['Generics and Linked Lists', '', '7.5%'], ['Queues, Iterators and Trees', '', '7.5%'], ['TreeMaps and Hashing', '', '7.5%']]
+        usableResponse = [['Java Refresher and Comparators', 'October 6, 2023', '7.5%'], ['Generics and Linked Lists', 'October 27, 2023', '7.5%'], ['Queues, Iterators and Trees', 'November 17, 2023', '7.5%'], ['TreeMaps and Hashing', 'December 1, 2023', '7.5%']]
 
         return usableResponse
