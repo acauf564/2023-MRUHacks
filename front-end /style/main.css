@@ -1,0 +1,40 @@
+.affirmation-container {
+    text-align: center;
+}
+
+.affirmation {
+    font-size: 56px;
+    font-weight: bold;
+    animation: flashText 7s infinite alternate;
+}
+
+@keyframes flashText {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.image-container {
+    height: 400px; 
+    overflow: hidden;
+}
+
+#drop-area {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    text-align: center;
+    padding: 30px;
+}
+
+#file-list {
+    list-style: none;
+    padding: 0;
+}
+
+#drop-area {
+    border: 1px solid red;
+}
