@@ -94,17 +94,31 @@
       <ul id="file-list"></ul>
     </div>
 
-    <div>
+    <div class="mb-4">
       <br />
       <br />
-      <a href="{{url_for('scannersubmit')}}"
-        ><input class="assignment" type="submit" value="Get Assignments"
+      <a
+        href="{{url_for('scannersubmit')}}"
+        style="box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.35)"
+        ><input
+          class="assignment"
+          type="submit"
+          value="Get Assignments"
+          style="background-color: #3988ffa0; border: 0px; border-radius: 15px"
       /></a>
     </div>
 
     <div>
       <a href="{{url_for('scanner')}}">
-        <input class="clear" type="reset" value="Clear"
+        <input
+          class="clear"
+          type="reset"
+          value="Clear"
+          style="
+            box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.35);
+            border: 0px;
+            border-radius: 15px;
+          "
       /></a>
     </div>
 

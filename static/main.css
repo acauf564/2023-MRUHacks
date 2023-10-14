@@ -78,7 +78,7 @@ table {
 
 table {
   width: 750px;
-  margin: auto;
+  margin: 2rem auto;
   border: 5;
   border-style: ridge;
   border-radius: 20px;
