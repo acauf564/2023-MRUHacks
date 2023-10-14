@@ -7,6 +7,10 @@ class Assignment:
         self.priority = self.setPriority()
         self.assigned_hours = self.calculateHours()
 
+    
+    def __str__(self) -> str:
+        return f"{self.description}, {self.date}, {self.weight}" 
+
     def calculateHours(self) -> float:
         if self.priority == 10:
             return 2
@@ -73,3 +77,6 @@ class Assignment:
 
     def setDescription(self, newWeight) -> None:
         self.weight = newWeight
+
+    def getTableList(self) -> list:
+        return [self.description, self.date, f"{self.weight} %", f"{self.assigned_hours} hours"] 

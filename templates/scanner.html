@@ -97,43 +97,18 @@
     <div>
       <br />
       <br />
-      <input class="assignment" type="submit" value="Get Assignments" />
-      <br />
-      <br />
+      <a href="{{url_for('scannersubmit')}}"
+        ><input class="assignment" type="submit" value="Get Assignments"
+      /></a>
     </div>
 
-    <table>
-      <tr>
-        <th>Description:</th>
-        <th>Due Date:</th>
-        <th>Weight:</th>
-        <th>Est. Time:</th>
-      </tr>
-      <tr>
-        <td>Java Refresher and Comparators</td>
-        <td>October 6, 2023</td>
-        <td>7.5%</td>
-        <td class="center">2 hours</td>
-      </tr>
-      <tr>
-        <td>Generics and Linked Lists</td>
-        <td>October 27, 2023</td>
-        <td>7.5%</td>
-        <td class="hour">2 hours</td>
-      </tr>
-      <tr>
-        <td>Queues, Iterators and Trees</td>
-        <td>November 17, 2023</td>
-        <td>7.5%</td>
-        <td class="hour">2 hours</td>
-      </tr>
-      <tr>
-        <td>TreeMaps and Hashing</td>
-        <td>December 1, 2023</td>
-        <td>7.5%</td>
-        <td class="hour">2 hours</td>
-      </tr>
-    </table>
+    <div>
+      <a href="{{url_for('scanner')}}">
+        <input class="clear" type="reset" value="Clear"
+      /></a>
+    </div>
+
+    {{table | safe}}
 
     <script src="../script.js"></script>
   </body>

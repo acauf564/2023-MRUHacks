@@ -15,6 +15,14 @@ def scanner():
 @app.route("/taskmanager")
 def taskmanager():
     return render_template("taskmanager.html")
+
+
+@app.route("/scannersubmit")
+def scannersubmit():
+    return render_template("scanner.html", table=main())
+
+
+
 # @app.route('/upload')
 # def upload_file():
 #     if request.method == 'POST':
