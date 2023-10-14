@@ -15,7 +15,7 @@ class PDFtoList:
         return self.response
 
     def read_file(self):
-        reader = PdfReader("2023-MRUHacks\sample_syllabus.pdf")
+        reader = PdfReader("sample_syllabus.pdf")
         number_of_pages = len(reader.pages)
         text = "<Please give me a python 2d list of all assignments, their due dates and percentage weights. If there is no due date or assignment weight, leave the field as an empty string. : "
         for i in range(number_of_pages):
