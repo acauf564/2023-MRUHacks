@@ -7,7 +7,7 @@ from PyPDF2 import PdfReader
 class PDFtoList:
 
     def __init__(self):
-        openai.api_key = "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"
+        openai.api_key = "no thanks"
         self.prompt = self.read_file()
         self.response = self.get_completion(self.prompt)
 
